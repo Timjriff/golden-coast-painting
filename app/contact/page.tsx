@@ -1,0 +1,6 @@
+import type {Metadata} from 'next';
+import {SiteHeader} from '@/components/site-header';
+import {SiteFooter} from '@/components/site-footer';
+import {ContactSection} from '@/components/contact-section';
+export const metadata:Metadata={title:'Contact Golden Coast Painters | Free Painting Estimate',description:'Book a painting estimate with Golden Coast Painters. Call (949) 735-4026 or email GoldenCoastpaintings@gmail.com for interior and exterior painting.',alternates:{canonical:'/contact'},openGraph:{title:'Contact Golden Coast Painters',description:'Let us bring your painting project to life. Call or email to request your free estimate.',url:'/contact'}};
+export default function ContactPage(){return <><a className="skip-link" href="#main">Skip to content</a><SiteHeader/><main id="main" className="contact-page"><section className="contact-intro"><a href="/" className="contact-back">Home / Contact</a><p className="eyebrow">CONTACT GOLDEN COAST PAINTERS</p><h1>Let's bring your<br/><em>vision to life.</em></h1><p>One room or a whole property. A home or a business.<br/>Tell us what you have in mind, and let's talk about the next step.</p></section><ContactSection/></main><SiteFooter/></>}

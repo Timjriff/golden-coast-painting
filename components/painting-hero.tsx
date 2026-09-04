@@ -36,7 +36,7 @@ export function PaintingHero() {
    <p className="eyebrow">RESIDENTIAL & COMMERCIAL PAINTING</p>
    <h1>A fresh coat.<br/>A <em>golden</em> finish.</h1>
    <p className="intro">Interior and exterior painting, thoughtfully done.<br className="desktop-break"/> Bring new life to your home or business with Golden Coast Painters.</p>
-   <div className="cinema-actions"><a className="button" href="#quote">Get a Free Estimate <ArrowUpRight size={18}/></a><a className="text-link" href={business.phoneHref}>Call {business.phone} <ArrowUpRight size={17}/></a></div>
+   <div className="cinema-actions"><a className="button" href="/contact">Get a Free Estimate <ArrowUpRight size={18}/></a><a className="text-link" href={business.phoneHref}>Call {business.phone} <ArrowUpRight size={17}/></a></div>
    <div className="hero-note"><Check size={16}/> Careful preparation <span>•</span> Beautiful finishes</div>
   </div>
   <div className="cinema-bottom"><a href="#services" className="cinema-scroll"><ArrowDown size={17}/><span>DISCOVER THE GOLDEN COAST DIFFERENCE</span></a><div className="cinema-playback"><span>Painting in motion</span>{!failed&&<Button variant="ghost" className="video-toggle" onClick={togglePlayback} aria-label={playing?'Pause background video':'Play background video'}>{playing?<Pause size={17}/>:<Play size={17}/>}</Button>}</div></div>
