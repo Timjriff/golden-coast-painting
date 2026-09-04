@@ -29,7 +29,7 @@ const projects = [
  {name:'A fresh first impression',type:'Commercial',image:photos.commercial,detail:'Clean walls · considered workspaces'},
 ];
 const nav = [['Our services','#services'],['Our work','#projects'],['Why Golden Coast','#about'],['FAQs','#faq']];
-function Brand(){return <a className="brand" href="#main" aria-label="Golden Coast Painters home"><span className="brand-mark" aria-hidden="true"><img src="/images/golden-coast-logo.jpg" width={512} height={382} alt="" fetchPriority="high"/></span><span>GOLDEN COAST<small>PAINTERS</small></span></a>}
+function Brand(){return <a className="brand" href="#main" aria-label="Golden Coast Painters home"><span className="brand-mark" aria-hidden="true"><img src="/images/golden-coast-logo-transparent.png" width={1586} height={992} alt="" fetchPriority="high"/></span><span>GOLDEN COAST<small>PAINTERS</small></span></a>}
 function CTA({children='Get a Free Estimate'}:{children?:React.ReactNode}){return <a className="button" href="#quote">{children}<ArrowUpRight size={18} aria-hidden="true"/></a>}
 export default function Home(){
  const [menu,setMenu]=useState(false);

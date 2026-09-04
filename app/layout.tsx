@@ -7,9 +7,9 @@ export const metadata: Metadata = {
  metadataBase:new URL(origin), title, description,
  robots:{index:process.env.SITE_LAUNCH_READY==='true',follow:process.env.SITE_LAUNCH_READY==='true'},
  alternates:{canonical:'/'},
- openGraph:{title,description,type:'website',siteName:'Golden Coast Painters',url:'/',images:[{url:'/images/golden-coast-logo.jpg',width:512,height:382,alt:'Golden Coast Painters — Beautiful spaces. Made golden.'}]},
- twitter:{card:'summary_large_image',title,description,images:['/images/golden-coast-logo.jpg']},
- icons:{icon:'/images/golden-coast-logo.jpg'},
+ openGraph:{title,description,type:'website',siteName:'Golden Coast Painters',url:'/',images:[{url:'/images/golden-coast-logo-transparent.png',width:1586,height:992,alt:'Golden Coast Painters — Beautiful spaces. Made golden.'}]},
+ twitter:{card:'summary_large_image',title,description,images:['/images/golden-coast-logo-transparent.png']},
+ icons:{icon:'/images/golden-coast-logo-transparent.png'},
 };
 export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en"><body>{children}</body></html>}
 
