@@ -1,4 +1,4 @@
-# Golden Coast Painters
+# Golden Coast Paintings
 
 Responsive painting-company site. The same App Router source supports the Sites preview and a native Next.js 16 build for Vercel.
 
@@ -18,9 +18,9 @@ Responsive painting-company site. The same App Router source supports the Sites 
 Booking email: GoldenCoastpaintings@gmail.com. Calls: (949) 735-4026. Contact values live in lib/business.ts. The estimate form validates details and opens a mailto draft with a copyable summary fallback. Visitors must send the email themselves; the website does not store or directly deliver submissions.
 
 ## Imagery
-Stock inspiration downloaded from Unsplash image IDs: photo-1600596542815-ffad4c1539a9, photo-1600210492486-724fe5c67fb0, photo-1497366754035-f200968a6e72, photo-1616486338812-3dadae4b4ace. These are not Golden Coast Painters projects. Replace with company photography before presenting them as portfolio work.
+Stock inspiration downloaded from Unsplash image IDs: photo-1600596542815-ffad4c1539a9, photo-1600210492486-724fe5c67fb0, photo-1497366754035-f200968a6e72, photo-1616486338812-3dadae4b4ace. These are not Golden Coast Paintings projects. Replace with company photography before presenting them as portfolio work.
 
-The original logo is retained at public/images/golden-coast-logo.jpg. The website uses public/images/golden-coast-logo-transparent.png, with the gray background removed. The website company name is Golden Coast Painters. Header and footer show the original architectural emblem alongside the company name.
+The original logo is retained at public/images/golden-coast-logo.jpg. The website uses public/images/golden-coast-logo-transparent.png, with the gray background removed. The website company name is Golden Coast Paintings. Header and footer show the original architectural emblem alongside the company name.
 
 ## Verified interactions
 Gallery category filtering, expandable FAQs, required-field validation, email estimate summary, mobile navigation, local image loading, and no horizontal overflow at phone width.
@@ -31,4 +31,4 @@ The first screen is an edge-to-edge, full-viewport painting video extending behi
 Stock footage (Mixkit Stock Video Free License; commercial website use allowed on the source pages):
 - Desktop: https://mixkit.co/free-stock-video/painting-a-wall-in-a-new-house-2296/
 - Mobile: https://mixkit.co/free-stock-video/a-brush-painting-on-a-blue-wall-2308/
-These clips illustrate painting, and do not depict Golden Coast Painters staff or projects.
+These clips illustrate painting, and do not depict Golden Coast Paintings staff or projects.

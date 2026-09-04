@@ -15,7 +15,7 @@ const photos = {
 };
 const questions = [
  ['How do I get a painting estimate?', 'Tell us a little about your property, location, and the work you have in mind. A walkthrough helps establish surface conditions, preparation needs, colors, and an accurate written scope. Complete the estimate form to prepare an email, or call (949) 735-4026 to discuss your project.'],
- ['Do you paint both homes and commercial spaces?', 'Yes. Golden Coast Painters offers interior and exterior painting for residential and commercial properties. Share your property type and any access or scheduling considerations with your estimate request.'],
+ ['Do you paint both homes and commercial spaces?', 'Yes. Golden Coast Paintings offers interior and exterior painting for residential and commercial properties. Share your property type and any access or scheduling considerations with your estimate request.'],
  ['What preparation does a painting project involve?', 'Preparation depends on the surface. A project may include protecting furniture and landscaping, cleaning, filling small imperfections, sanding, caulking, and priming where needed. Your written estimate should spell out the preparation included.'],
  ['Can you help me choose colors and finishes?', 'Include any inspiration, existing finishes, and preferred colors when you contact us. Discuss sample colors in your own lighting and the right finish for each surface before work begins.'],
  ['How long will my project take?', 'Timing depends on project size, surface condition, product drying times, access, and weather for exterior work. Your schedule should be confirmed after a walkthrough, with any changes communicated along the way.'],

@@ -12,7 +12,7 @@ export function ContactSection(){
  const [copyStatus,setCopyStatus]=useState('Copy project summary');
  async function submit(event:FormEvent<HTMLFormElement>){
   event.preventDefault(); const form=event.currentTarget; const data=Object.fromEntries(new FormData(form));
-  const text=`Golden Coast Painters — Estimate request\nName: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone || 'Not provided'}\nCity / ZIP: ${data.city}\nProperty: ${data.property}\nService: ${data.service}\nTiming: ${data.timing}\nDetails: ${data.details || 'Not provided'}`;
+  const text=`Golden Coast Paintings — Estimate request\nName: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone || 'Not provided'}\nCity / ZIP: ${data.city}\nProperty: ${data.property}\nService: ${data.service}\nTiming: ${data.timing}\nDetails: ${data.details || 'Not provided'}`;
   setSummary(text); setCopyStatus('Copy project summary');
   setFormStatus('draft');
   window.location.href = `mailto:${business.bookingEmail}?subject=${encodeURIComponent('Free painting estimate request')}&body=${encodeURIComponent(text)}`;

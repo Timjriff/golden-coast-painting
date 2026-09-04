@@ -26,7 +26,7 @@ export function PaintingHero() {
   if (video.paused) void video.play().catch(() => setPlaying(false));
   else video.pause();
  }
- return <section className="hero hero-cinema" aria-label="Golden Coast Painters">
+ return <section className="hero hero-cinema" aria-label="Golden Coast Paintings">
   <div className="cinema-media" aria-hidden="true">
    <picture className="cinema-poster"><source media="(max-width: 760px)" srcSet="/images/painting-mobile-poster.jpg"/><img src="/images/painting-poster.jpg" alt="" fetchPriority="high"/></picture>
    <video ref={videoRef} className={failed?'cinema-video unavailable':'cinema-video'} poster="/images/painting-poster.jpg" muted loop playsInline preload="metadata" tabIndex={-1} onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onError={()=>{setFailed(true);setPlaying(false);}}><source media="(max-width: 760px)" src="/video/painting-mobile.mp4" type="video/mp4"/><source src="/video/painting-hero.mp4" type="video/mp4"/></video>
@@ -35,7 +35,7 @@ export function PaintingHero() {
   <div className="hero-copy cinema-copy">
    <p className="eyebrow">RESIDENTIAL & COMMERCIAL PAINTING</p>
    <h1>A fresh coat.<br/>A <em>golden</em> finish.</h1>
-   <p className="intro">Interior and exterior painting, thoughtfully done.<br className="desktop-break"/> Bring new life to your home or business with Golden Coast Painters.</p>
+   <p className="intro">Interior and exterior painting, thoughtfully done.<br className="desktop-break"/> Bring new life to your home or business with Golden Coast Paintings.</p>
    <div className="cinema-actions"><a className="button" href="/contact">Get a Free Estimate <ArrowUpRight size={18}/></a><a className="text-link" href={business.phoneHref}>Call {business.phone} <ArrowUpRight size={17}/></a></div>
    <div className="hero-note"><Check size={16}/> Careful preparation <span>•</span> Beautiful finishes</div>
   </div>

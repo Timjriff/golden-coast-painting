@@ -3,7 +3,7 @@ import {useEffect,useState} from 'react';
 import {Menu,X,ArrowUpRight} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 const nav = [['Our services','/services'],['Our work','/#projects'],['Why Golden Coast','/#about'],['FAQs','/#faq'],['Contact','/contact']];
-export function Brand(){return <a className="brand" href="/" aria-label="Golden Coast Painters home"><span className="brand-mark" aria-hidden="true"><img src="/images/golden-coast-logo-transparent.png" width={1586} height={992} alt="" fetchPriority="high"/></span><span>GOLDEN COAST<small>PAINTERS</small></span></a>}
+export function Brand(){return <a className="brand" href="/" aria-label="Golden Coast Paintings home"><span className="brand-mark" aria-hidden="true"><img src="/images/golden-coast-logo-transparent.png" width={1586} height={992} alt="" fetchPriority="high"/></span><span>GOLDEN COAST<small>PAINTINGS</small></span></a>}
 export function SiteHeader({home=false,active='contact'}:{home?:boolean;active?:'contact'|'services'}){
  const [menu,setMenu]=useState(false);
  const [scrolled,setScrolled]=useState(false);

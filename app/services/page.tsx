@@ -5,16 +5,16 @@ import { SiteFooter } from '@/components/site-footer';
 import { business } from '@/lib/business';
 
 export const metadata: Metadata = {
-  title: 'Painting Services | Golden Coast Painters',
-  description: 'Explore interior, exterior, residential, and commercial painting from Golden Coast Painters. Plan your project and request a free estimate.',
+  title: 'Painting Services | Golden Coast Paintings',
+  description: 'Explore interior, exterior, residential, and commercial painting from Golden Coast Paintings. Plan your project and request a free estimate.',
   alternates: { canonical: '/services' },
-  openGraph: { title: 'Painting Services | Golden Coast Painters', description: 'Thoughtful painting for homes and businesses, inside and out.', url: '/services' },
+  openGraph: { title: 'Painting Services | Golden Coast Paintings', description: 'Thoughtful painting for homes and businesses, inside and out.', url: '/services' },
 };
 
 const services = [
   {
     id: 'interior', number: '01', title: 'Interior painting', tagline: 'A new feeling in every room.', image: '/images/interior.jpg', alt: 'Bright living room with soft neutral walls and natural furnishings',
-    intro: 'Color changes how a space feels. From a single room to an entire interior, Golden Coast Painters helps you refresh the surfaces you live and work with every day. Think lighter living spaces, a more restful bedroom, or a welcoming place to meet clients.',
+    intro: 'Color changes how a space feels. From a single room to an entire interior, Golden Coast Paintings helps you refresh the surfaces you live and work with every day. Think lighter living spaces, a more restful bedroom, or a welcoming place to meet clients.',
     items: ['Walls and ceilings in living rooms, bedrooms, and shared spaces', 'Kitchens, hallways, and other frequently used rooms', 'Doors, baseboards, and interior trim', 'Coordinated colors across adjoining rooms'],
     detail: 'A thoughtful interior plan considers the existing finish, the condition of each surface, and how the room is used. Preparation may include protecting floors and furnishings, filling minor surface imperfections, sanding, and priming where appropriate. We discuss the scope before painting begins.',
     planning: 'Tell us which rooms and surfaces you want painted, whether the space will be occupied, and any colors or finishes you have in mind.',
@@ -35,7 +35,7 @@ const services = [
   },
   {
     id: 'commercial', number: '04', title: 'Commercial painting', tagline: 'A space that reflects your business.', image: '/images/commercial.jpg', alt: 'Open commercial workspace with bright walls and clean contemporary finishes',
-    intro: 'The appearance of your property shapes the first impression of your business. Golden Coast Painters offers interior and exterior painting for commercial spaces, helping create a cohesive environment for your team, customers, and visitors.',
+    intro: 'The appearance of your property shapes the first impression of your business. Golden Coast Paintings offers interior and exterior painting for commercial spaces, helping create a cohesive environment for your team, customers, and visitors.',
     items: ['Offices and professional workspaces', 'Retail and customer-facing interiors', 'Shared areas and meeting spaces', 'Commercial building exterior refreshes'],
     detail: 'Commercial projects need a clear plan for access and operations. Discuss occupied areas, opening hours, furniture or equipment protection, and any building requirements. Phasing and scheduling options should be agreed as part of the project scope, along with the surfaces and finishes involved.',
     planning: 'Tell us about your business, the areas to be painted, access requirements, and any preferred working hours or target completion date.',
@@ -48,7 +48,7 @@ export default function ServicesPage() {
     <SiteHeader active="services" />
     <main id="main" className="services-page">
       <section className="services-intro">
-        <div><a className="contact-back" href="/">Home / Our services</a><p className="eyebrow">GOLDEN COAST PAINTERS</p><h1>Beautiful spaces.<br/><em>Inside and out.</em></h1><p>Interior and exterior painting for homes and businesses. Explore the possibilities, then let’s make a plan for your property.</p><a className="button" href="/contact">Get a Free Estimate <ArrowUpRight size={18}/></a></div>
+        <div><a className="contact-back" href="/">Home / Our services</a><p className="eyebrow">GOLDEN COAST PAINTINGS</p><h1>Beautiful spaces.<br/><em>Inside and out.</em></h1><p>Interior and exterior painting for homes and businesses. Explore the possibilities, then let’s make a plan for your property.</p><a className="button" href="/contact">Get a Free Estimate <ArrowUpRight size={18}/></a></div>
         <img src="/images/interior.jpg" alt="Sunlit home interior with a soft, cohesive painted palette" width={900} height={800} fetchPriority="high"/>
       </section>
       <nav className="service-jump-nav" aria-label="Painting services">{services.map(s=><a key={s.id} href={`#${s.id}`}><span>{s.number}</span>{s.title}<ArrowUpRight size={17}/></a>)}</nav>
